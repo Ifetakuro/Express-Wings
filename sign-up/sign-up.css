@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .body {
@@ -34,17 +35,17 @@
 }
 
 .pressme{
-  background-color:#222;
+  background-color:#FE8D00;
   color: white;
   border-radius: 10px;
   border: none;
-  margin: 5px;
+  margin: 0px 8px;
   padding: 8px 10px;
 
 }
 
 .pressme:hover{
-  background-color: #222;
+  background-color: #c27211;
 }
 
 
@@ -63,15 +64,15 @@
   width: 50%;
   height: fit-content;
   padding: 2% 3%;
-  background-color: rgba(254, 140, 0, 0.7);
+  background-color: #FE8D00;
   font-size: 0.9rem;
   font-weight: bold;
 }
 
 #submit {
-  background-color: #333;
+  background-color: #260E01;
   color: #fff;
-  border: 3px solid #333;
+  border: none;
   transition: 1s;
 }
 
@@ -122,6 +123,16 @@
   .form {
     width: 80%;
   }
+
+  .pressme {
+    margin: 10px 0px;
+  }
+
+  .img {
+    width: 6rem;
+    margin-left: -18rem;
+  }
+
 }
 
 

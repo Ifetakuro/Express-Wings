@@ -5,17 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Express Wings</title>
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="sorting.css">
   <link rel="stylesheet" href="../about-us/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="sort-body">
   <header>
     <nav class="navbar navbar-expand-lg shadow-sm" id="heading">
       <div class="container-fluid">
         <a class="navbar-brand"></a> <img src="../images/expresswings-logo.png" alt="Express wings logo" class="img">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" style="margin-left: 15rem;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fs-1 mt-2"><i class="fa-solid fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
@@ -26,16 +28,19 @@
               <a class="nav-link text-dark" href="../about-us/index.html">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="../sorting/sorting.html">Sorting/Tracking</a>
+              <a class="nav-link text-dark" href="../sorting/sorting.html">Sorting</a>
             </li>
             <li class="nav-item">
-              <button class="pressme"><a href="../sign-up/sign-up.html" class="pressme-link">Log in</a></button>
+              <a class="nav-link text-dark" href="../analysis.html">Analysis</a>
+            </li>
+            <!-- <li class="nav-item">
+              <button class="pressme"><a href="../sign-in.html" class="pressme-link">Log in</a></button>
+            </li> -->
+            <li class="nav-item">
+              <button class="pressme"><a href="../sign-up/sign-up.html" class="pressme-link">Sign up/Log In</a></button>
             </li>
             <li class="nav-item">
-              <button class="pressme"><a href="../sign-up/sign-up.html" class="pressme-link">Sign up</a></button>
-            </li>
-            <li class="nav-item">
-              <button class="pressme"><a href="../profile/index.html" class="pressme-link">Profile</a></button>
+              <button class="pressme rounded-circle p-1"><a href="../profile/index.html" class="pressme-link"><img src="../images/User (1).png" alt="user icon"></a></button>
             </li>
           </ul>
         </div>
@@ -74,6 +79,12 @@
         </div>
       </div>
     </div>
+    <div class="w-75 mx-auto position-relative">
+      <hr class="position-relative">
+        <img src="../images/mark-1.png" alt="red mark" class="position-absolute top-0 start-0 translate-middle bg-light p-1 rounded-circle">
+        <img src="../images/mark-2.png" alt="orange mark" class="position-absolute top-0 start-50 translate-middle bg-light p-1 rounded-circle">
+        <img src="../images/mark-3.png" alt="green mark" class="position-absolute top-0 start-100 translate-middle bg-light p-1 rounded-circle">
+    </div>
   </div>
  
   <!-- Footer -->
@@ -102,5 +113,6 @@
       <img src="../images/about-logo.png" alt="Logo" class="me-5 footer-img">
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -5,9 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./about-us/style.css">
     <link rel="stylesheet" href="./sign-up/sign-up.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
   <title>Express Wings</title>
 </head>
 <body>
@@ -15,8 +17,8 @@
     <nav class="navbar navbar-expand-lg shadow-sm" id="heading">
       <div class="container-fluid">
         <a class="navbar-brand"></a> <img src="../images/expresswings-logo.png" alt="Express wings logo" class="img">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" style="margin-left: 15rem;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fs-1 mt-2"><i class="fa-solid fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
@@ -27,16 +29,19 @@
               <a class="nav-link text-dark" href="./about-us/index.html">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="./sorting/sorting.html">Sorting/Tracking</a>
+              <a class="nav-link text-dark" href="./sorting/sorting.html">Sorting</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link text-dark" href="./analysis.html">Analysis</a>
+            </li>
+            <!-- <li class="nav-item">
               <button class="pressme"><a href="sign-in.html" class="pressme-link">Log in</a></button>
+            </li> -->
+            <li class="nav-item">
+              <button class="pressme"><a href="../sign-up/sign-up.html" class="pressme-link">Sign up/Log In</a></button>
             </li>
             <li class="nav-item">
-              <button class="pressme"><a href="../sign-up/sign-up.html" class="pressme-link">Sign up</a></button>
-            </li>
-            <li class="nav-item">
-              <button class="pressme"><a href="./profile/index.html" class="pressme-link">Profile</a></button>
+              <button class="pressme rounded-circle p-1"><a href="./profile/index.html" class="pressme-link"><img src="../images/User (1).png" alt="user icon"></a></button>
             </li>
           </ul>
         </div>
@@ -45,7 +50,7 @@
   </header>
 <!-- HERO SECTION -->
   <section class="hero-section d-flex justify-content-center align-items-center">
-    <div class="w-100">
+    <div class="w-100 container">
       <div class="d-flex align-items-center justify-content-center">
         <div>
           <div class="text-white hero-info">
@@ -124,7 +129,7 @@
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit explicabo a doloremque, blanditiis ab recusandae adipisci enim? Cum ipsam et exercitationem aut repellat tempora error doloremque amet porro? Ad, a.
+              Simple fill in your tracking ID on the home page and search
             </div>
           </div>
         </div>
@@ -143,12 +148,12 @@
         <div class="accordion-item mb-3">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Where are the headquarters located?
+              How can I request a pick up?
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae repellat quidem doloribus distinctio similique illo, non magni iusto reprehenderit, minus veniam enim. Harum iste recusandae perspiciatis. Nisi, soluta eveniet!
+              Contact us through our email or call us on +2349055448480 and we will be glad to arrange you pick up/ delivery
             </div>
           </div>
         </div>
@@ -160,7 +165,7 @@
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae repellat quidem doloribus distinctio similique illo, non magni iusto reprehenderit, minus veniam enim. Harum iste recusandae perspiciatis. Nisi, soluta eveniet!
+              Integrity, Transparency, Accountability and Excellence
             </div>
           </div>
         </div>
@@ -184,7 +189,6 @@
               <img src="./images/star.png" alt="star">
               <img src="./images/star.png" alt="star">
               <img src="./images/star.png" alt="star">
-              <img src="./images/star.png" alt="star">
             </div>
           </div>
           <p class="card-text">It is an exciting opportunity to use this platform. It is safe and reliable for vendors. There is also an efficient customer service.</p>
@@ -201,7 +205,6 @@
               <img src="./images/star.png" alt="star">
               <img src="./images/star.png" alt="star">
               <img src="./images/star.png" alt="star">
-              <img src="./images/star.png" alt="star">
             </div>
           </div>
           <p class="card-text">The best logistics website I have ever used. Easy to track orders and fast in delivery. Easy to track orders and fast. Excellent! </p>
@@ -213,7 +216,6 @@
             <div><img src="./images/olakunle.png" alt="olakunle" class="rounded-circle card-img"></div>
             <div>
               <h6 class="card-title">OLAKUNLE</h6>
-              <img src="./images/star.png" alt="star">
               <img src="./images/star.png" alt="star">
               <img src="./images/star.png" alt="star">
               <img src="./images/star.png" alt="star">
