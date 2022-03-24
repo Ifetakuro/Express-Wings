@@ -3,13 +3,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 html, body {
   width: 100%;
 }
 .sorting {
-  background-color: rgba(254, 140, 0, 0.8) !important;
+  background-color: #FE8D00 !important;
 }
 
 .white-box {
@@ -19,6 +20,16 @@ html, body {
   background-color: #fff;
   border-radius: 10px;
   color: #333;
+}
+
+.data {
+  border-radius: 10px;
+  margin: 10px !important;
+  width: 300px !important;
+}
+
+.data-img {
+  width: 300px !important;
 }
 
 /* .sorting {
@@ -46,17 +57,27 @@ html, body {
 }
 
 .pressme{
-  background-color:#222;
+  background-color:#FE8D00;
   color: white;
   border-radius: 10px;
   border: none;
-  margin: 5px;
+  margin: 0px 8px;
   padding: 8px 10px;
 
 }
 
 .pressme:hover{
-  background-color: #222;
+  background-color: #c56f06;
+}
+
+@media screen and (max-width: 768px) {
+  .pressme {
+    margin: 10px 0px;
+  }
+
+  .img {
+    width: 6rem;
+  }
 }
 
  
